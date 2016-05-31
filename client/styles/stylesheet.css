@@ -1,115 +1,87 @@
 body {
-    background: #E4E4E4 url('/images/bg.png');
-    font-family: 'Open Sans', sans-serif;
+  background: #E4E4E4 url('/images/bg.png');
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
-    color: #0288D1;
-    font-size: 1.5em;
+  color: #0288D1;
+  font-size: 1.5em;
 }
 
 h2 {
-    margin-bottom: 4px;
-    font-size: 1.17em;
+  margin-bottom: 4px;
+  font-size: 1.17em;
 }
 
 .sidebar {
-    background: #FFFFFF;
-    padding: 0;
-    overflow: hidden;
-    text-align: center;
-    height: 100vh;
-    width: 15vh;
-    position: fixed;
-}
-
-.content-header {
-  width: 92%;
+  position: fixed;
+  background: #FFFFFF;
   height: 100vh;
-  background: url('https://httpete.com/images/work-.jpg');
-  background-position: center;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.content-content {
+  width: 140px;
   padding: 0;
-  margin: 40vh 0 0 0;
-}
-
-.content-section {
-  background: url('https://httpete.com/images/work-.jpg');
-  height: 100vh;
-  margin: 0 0 0 15vh;
-  padding: 30px 0;
-}
-
-.main {
-  overflow: scroll;
-  padding: 0;
-  margin: 0;
+  overflow: hidden;
+  text-align: center;
 }
 
 .sidebar p {
-    padding: 0 10px 0 10px;
-    margin: 0px
+  padding: 0 10px 0 10px;
+  margin: 0px
 }
-.sidebar .header img {
-    width: 100%;
-    height: auto;
-}
-.sidebar #email {
 
-    font-size: .70em;
-}
 .sidebar h1 {
   margin-top: 25px;
 }
 
-.sidebar .card {
-  padding:  10px 25px 10px 25px;
-  margin: 0px auto 0px;
-  text-align: center;
-}
-.nav {
-  line-height: 45px;
-  margin-top: 27vh
+.sidebar .header img {
+  width: 100%;
+  height: auto;
 }
 
-.social-media {
-  margin-top: 25vh;
+.sidebar #email {
+  font-size: .70em;
 }
 
-.content .card:first {
-  margin: inherit 20% inherit 20%;
+.sidebar #nav {
+  line-height: 50px;
+  margin-top: 20vh
+}
+
+.sidebar #social-media {
+  position: absolute;
+  bottom: 10px;
+  left: 15px
+}
+
+.content-section {
+  height: 100vh;
+  margin: 0 0 0 15vh;
+  padding: 30px 0 0 0;
 }
 
 .card {
-    background: #FFFFFF;
-    padding: 15px 25px 35px 25px;
-    box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.26);
-    border-radius: 1px;
+  background: #FFFFFF;
+  padding: 15px 25px 35px 25px;
+  box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.26);
+  border-radius: 1px;
+  padding: 0;
+}
+.card .featured-text {
+  padding:10px 30px;
 }
 
-#nav-card {
-    margin-top: 0px;
-    text-align: center;
-}
-.card-header {
-    text-align: center;
-    letter-spacing: 2px;
+.card .featured-text hr {
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
+.section-1 {
+  background: url('https://httpete.com/images/work-.jpg');
+  background-position: center;
+  background-size: cover;
+
+}
 .section-2 {
   background: url('http://www.pbtech.co.nz/fileslib/_20150810154230_KBA12012-Banner-R10-001.jpg');
-}
-
-.card {
-    margin-top: 15px;
-    margin-bottom: 5px;
-    margin: 15px auto;
-    padding: 0;
 }
 
 .featured {
@@ -119,71 +91,4 @@ h2 {
 
 .clearfix {
   overflow: auto;
-}
-
-.featured-image {
-  height: 100%;
-  padding-left: 0;
-}
-
-.right {
-    float: right;
-}
-.split {
-    padding-right: 0;
-}
-
-@media (min-width: 720px) and (max-width : 992px) {
-  .split {
-      padding-right: 0;
-      padding-left: 0;
-  }
-}
-@media(max-width: 767px ) {
-
-  .featured {
-    margin: 0;
-  }
-  .sidebar {
-      margin: 0;
-      border-radius: 0;
-      height: auto;
-  }
-
-  .nav {
-    margin-top: 10px;
-  }
-
-  .social-media {
-    margin-top: 10px;
-  }
-  .content-header {
-    margin-top: 60vh;
-    width: 100%;
- }
-  .content-content {
-    margin: 0;
-  }
-  .content {
-    padding: 0;
-  }
-  .sidebar p {
-      padding-left: 10%;
-      padding-right: 10%;
-  }
-
-  .split {
-      padding-left: 0;
-      padding-right: 0;
-  }
-  .content {
-    overflow-y:auto;
-    height: auto;
-  }
-  .card {
-    margin: 0;
-  }
-  .col-md-12 {
-    padding: 0;
-  }
 }
