@@ -15,3 +15,9 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 
 ga('create', 'UA-68127481-1', 'auto');
 ga('send', 'pageview');
+
+// $('nav').hide()
+
+var showNav = function() {
+  $('nav').show()
+}

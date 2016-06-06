@@ -1,11 +1,10 @@
 body {
-  background: #E4E4E4 url('/images/bg.png');
+  background: #E4E4E4;
   font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
   color: #0288D1;
-  font-size: 1.5em;
 }
 
 h2 {
@@ -13,57 +12,53 @@ h2 {
   font-size: 1.17em;
 }
 
-.sidebar {
+nav {
   position: fixed;
   background: #FFFFFF;
   height: 100vh;
-  width: 140px;
+  width: 120px;
   padding: 0;
   overflow: hidden;
   text-align: center;
 }
 
-.sidebar p {
-  padding: 0 10px 0 10px;
-  margin: 0px
+nav .header h1 {
+  font-size: 1.5em;
 }
-
-.sidebar h1 {
-  margin-top: 25px;
-}
-
-.sidebar .header img {
-  width: 100%;
-  height: auto;
-}
-
-.sidebar #email {
+nav #email {
   font-size: .70em;
 }
 
-.sidebar #nav {
+nav #nav {
   line-height: 50px;
-  margin-top: 20vh
+  margin-top: 20%;
 }
 
-.sidebar #social-media {
+nav #social-media {
   position: absolute;
   bottom: 10px;
   left: 15px
 }
 
-.content-section {
-  height: 100vh;
-  margin: 0 0 0 15vh;
-  padding: 30px 0 0 0;
+.main {
+  margin-left: 120px;
 }
 
+header {
+  height: auto;
+  margin: 0;
+  padding: 50px;
+  background-color: #2080b0;
+}
+img {
+  height: auto;
+}
 .card {
   background: #FFFFFF;
   padding: 15px 25px 35px 25px;
   box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.26);
   border-radius: 1px;
-  padding: 0;
+  height: 80%;
 }
 .card .featured-text {
   padding:10px 30px;
@@ -73,15 +68,21 @@ h2 {
   margin-top: 10px;
   margin-bottom: 15px;
 }
-
-.section-1 {
-  background: url('https://httpete.com/images/work-.jpg');
-  background-position: center;
-  background-size: cover;
-
+.cv-download {
+  background-color: #2B6A9C;
+  text-align: center;
+  height: auto;
+  padding: 30px;
 }
-.section-2 {
-  background: url('http://www.pbtech.co.nz/fileslib/_20150810154230_KBA12012-Banner-R10-001.jpg');
+.cv-download button{
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  font-size: 19px;
+}
+footer {
+  background-color: #171717;
+  height: 40px;
 }
 
 .featured {
