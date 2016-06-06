@@ -1,2 +1,2 @@
 # Mikel Severson Portfolio
-Website hosted on https://www.mikelseverson.com/
+Portfolio website currently in development
