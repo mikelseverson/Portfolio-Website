@@ -45,7 +45,6 @@ gulp.task('images', () => {
 
 gulp.task('styles', () => {
 	gulp.src('./client/styles/**/*.css')
-	    .pipe(concatCss("/stylesheet.css"))
 		.pipe(gulp.dest('./server/public/styles'))
 		.pipe(reload({stream: true}));
 });
