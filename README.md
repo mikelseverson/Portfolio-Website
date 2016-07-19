@@ -1,6 +1,6 @@
 # Mikel Severson Portfolio
-Portfolio website currently in development
+Blog / Portfolio website currently in development
 
-Goal is to display side-projects and demos
+The goal is to have a website for showing demos, writing content as I learn, and provide value to the people that end up at it.
 
-Would also like to implement a blog, cms using firebase and node prerendering
+Technology used is TBD as the scope creeps, for now I am not going to use a framework.
