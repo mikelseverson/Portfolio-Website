@@ -25,7 +25,6 @@ nav {
 nav .header h1 {
   font-size: 1.5em;
 }
-
 nav #email {
   font-size: .70em;
 }
@@ -38,7 +37,7 @@ nav #nav {
 nav #social-media {
   position: absolute;
   bottom: 10px;
-  left: 15px;
+  left: 15px
 }
 
 .main {
@@ -51,11 +50,9 @@ header {
   padding: 50px;
   background-color: #2080b0;
 }
-
 img {
   height: auto;
 }
-
 .card {
   background: #FFFFFF;
   padding: 15px 25px 35px 25px;
@@ -63,30 +60,26 @@ img {
   border-radius: 1px;
   height: 80%;
 }
-
 .card .featured-text {
-  padding: 10px 30px;
+  padding:10px 30px;
 }
 
 .card .featured-text hr {
   margin-top: 10px;
   margin-bottom: 15px;
 }
-
 .cv-download {
   background-color: #2B6A9C;
   text-align: center;
   height: auto;
   padding: 30px;
 }
-
-.cv-download button {
+.cv-download button{
   width: 100%;
   max-width: 400px;
   height: auto;
   font-size: 19px;
 }
-
 footer {
   background-color: #171717;
   height: 40px;
