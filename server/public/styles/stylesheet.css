@@ -22,16 +22,15 @@ nav {
   text-align: center;
 }
 
-nav .header h1 {
+nav .header {
   font-size: 1.5em;
 }
 nav #email {
   font-size: .70em;
 }
 
-nav #nav {
+nav ul {
   line-height: 50px;
-  margin-top: 20%;
 }
 
 nav #social-media {
@@ -42,6 +41,8 @@ nav #social-media {
 
 main {
   margin-left: 120px;
+  padding: 0;
+  height: 100vh;
 }
 
 header {
@@ -50,15 +51,14 @@ header {
   padding: 50px;
   background-color: #2080b0;
 }
-img {
-  height: auto;
-}
+
 .card {
   background: #FFFFFF;
   padding: 15px 25px 35px 25px;
   box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.26);
   border-radius: 1px;
   height: 80%;
+  margin: 30px auto;
 }
 .card .featured-text {
   padding:10px 30px;
@@ -68,28 +68,57 @@ img {
   margin-top: 10px;
   margin-bottom: 15px;
 }
-.cv-download {
-  background-color: #2B6A9C;
+#cv-download {
   text-align: center;
   height: auto;
-  padding: 30px;
 }
-.cv-download button{
+#cv-download button{
   width: 100%;
   max-width: 400px;
   height: auto;
   font-size: 19px;
 }
 footer {
-  background-color: #171717;
-  height: 40px;
+  background-color: #2B6A9C;
+  height: auto;
+  padding: 30px;
+}
+footer #social-media {
+  display: none;
 }
 
 .featured {
-  margin-right: 15%;
-  margin-left: 15%;
+  margin-right: 7%;
+  margin-left: 7%;
 }
 
 .clearfix {
   overflow: auto;
+}
+
+@media (max-width:960px) {
+  nav {
+    display: none;
+  }
+  main {
+    margin-left: auto;
+  }
+  footer #social-media {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+  }
+  footer .social-media-icon {
+    margin: auto 10px;
+    height: 30px;
+  }
+  footer .social-media-icon:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+  header {
+    padding: 10px 0;
+  }
 }
