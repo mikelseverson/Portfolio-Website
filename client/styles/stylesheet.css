@@ -22,6 +22,11 @@ nav {
   text-align: center;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 nav .header {
   font-size: 1.5em;
 }
@@ -36,7 +41,7 @@ nav ul {
 nav #social-media {
   position: absolute;
   bottom: 10px;
-  left: 15px
+  left: 8px
 }
 
 main {
@@ -63,10 +68,27 @@ header {
 .card .featured-text {
   padding:10px 30px;
 }
-
 .card .featured-text hr {
   margin-top: 10px;
   margin-bottom: 15px;
+}
+.content-section:nth-child(2) {
+  background: lightsteelblue;
+}
+.content-section:nth-child(5) {
+  background: mediumseagreen;
+}
+.content-section:nth-child(4) {
+  background: lightcoral;
+}
+.content-section:nth-child(3) {
+  background: cadetblue;
+}
+.content-section:nth-child(6) {
+  background: lightsteelblue;
+}
+.content-section:nth-child(n + 7) {
+  background: #2B6A9C;
 }
 #cv-download {
   text-align: center;
@@ -92,6 +114,13 @@ footer #social-media {
   margin-left: 7%;
 }
 
+#blog-header {
+  padding-top: 2px;
+  padding-bottom: 10px;
+}
+#blog-header h1 {
+  text-align: center;
+}
 .clearfix {
   overflow: auto;
 }
